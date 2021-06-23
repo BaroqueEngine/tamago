@@ -22,7 +22,7 @@ export default function Post({ post, preview }) {
         ) : (
           <>
             <Head>
-              <title>{post.title} | つむぐ未開地図</title>
+              <title>{post.title} | つむぎスケッチ</title>
             </Head>
             <SketchComponent slug={post.slug} />
           </>
