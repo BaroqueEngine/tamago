@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 import PostTitle from "../components/post-title";
 import Head from "next/head";
 import { getPostBySlug, getAllPosts } from "../lib/api";
-import { SketchComponent } from "../components/sketch";
+import SketchComponent from "../components/sketch";
 
 export default function Post({ post, preview }) {
   const router = useRouter();
